@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RoyalBite | Restaurant & Cafe</title>
+
+  <meta name="description"
+    content="Discover RoyalBite, a premium dining experience with delicious food and a warm atmosphere.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="navbar container">
+
+      <a href="#home" class="logo">
+        <span class="logo-icon">♛</span>
+        <span>
+          RoyalBite
+          <small>RESTAURANT & CAFE</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#reservation" class="btn btn-outline nav-cta">
+        Book a Table ↗
+      </a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <span class="eyebrow">GOOD FOOD · GREAT MOOD</span>
+
+        <h1>
+          Taste the
+          <span>Royal Experience.</span>
+        </h1>
+
+        <p>
+          Delicious food, cozy atmosphere and unforgettable
+          moments. Discover a dining experience made for you.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-gold">Explore Our Menu ↗</a>
+          <a href="#about" class="text-link">Discover Our Story →</a>
+        </div>
+
+        <div class="hero-note">
+          <span>✦</span> Fresh ingredients. Exceptional taste.
+        </div>
+      </div>
+
+      <div class="hero-bottom container">
+        <span>01 — CRAFTED WITH PASSION</span>
+        <span>SCROLL TO DISCOVER ↓</span>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <div class="container feature-grid">
+        <article class="feature">
+          <span class="feature-icon">✧</span>
+          <div>
+            <h3>Premium Quality</h3>
+            <p>Fresh ingredients, always.</p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon">♨</span>
+          <div>
+            <h3>Expert Chefs</h3>
+            <p>Crafted with passion.</p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon">❋</span>
+          <div>
+            <h3>Cozy Ambience</h3>
+            <p>Made for special moments.</p>
+          </div>
+        </article>
+
+        <article class="feature">
+          <span class="feature-icon">♡</span>
+          <div>
+            <h3>Happy Guests</h3>
+            <p>Hospitality from the heart.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="section menu-section" id="menu">
+      <div class="container">
+
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">OUR SPECIALTIES</span>
+            <h2>Flavours You'll <span>Love.</span></h2>
+          </div>
+          <p>
+            Thoughtfully prepared dishes, rich flavours
+            and memorable moments at every table.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=85"
+              alt="Freshly prepared pasta" loading="lazy">
+            <div class="menu-card-body">
+              <span class="dish-category">CHEF'S SPECIAL</span>
+              <h3>Signature Pasta</h3>
+              <p>Rich, creamy sauce with herbs and parmesan.</p>
+              <div class="dish-footer">
+                <span class="price">Rs. 1,250</span>
+                <button class="add-btn" aria-label="Add Signature Pasta">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=85"
+              alt="Gourmet beef burger" loading="lazy">
+            <div class="menu-card-body">
+              <span class="dish-category">CUSTOMER FAVOURITE</span>
+              <h3>Royal Beef Burger</h3>
+              <p>Juicy burger with melted cheese and fresh greens.</p>
+              <div class="dish-footer">
+                <span class="price">Rs. 950</span>
+                <button class="add-btn" aria-label="Add Royal Beef Burger">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=85"
+              alt="Beautifully plated grilled salmon" loading="lazy">
+            <div class="menu-card-body">
+              <span class="dish-category">SIGNATURE DISH</span>
+              <h3>Grilled Special</h3>
+              <p>Perfectly grilled and served with seasonal sides.</p>
+              <div class="dish-footer">
+                <span class="price">Rs. 1,650</span>
+                <button class="add-btn" aria-label="Add Grilled Special">+</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85"
+            alt="Elegant restaurant dining interior" loading="lazy">
+          <div class="image-label">A LITTLE EXTRAORDINARY.</div>
+        </div>
+
+        <div class="about-content">
+          <span class="eyebrow">OUR STORY</span>
+          <h2>Where Every Meal Becomes <span>a Memory.</span></h2>
+          <p>
+            At RoyalBite, we believe great food brings
+            people together. Every dish is prepared with
+            care, every detail is thoughtfully designed,
+            and every guest is welcomed like family.
+          </p>
+
+          <div class="stats">
+            <div>
+              <strong>05+</strong>
+              <span>Years of Passion</span>
+            </div>
+            <div>
+              <strong>1K+</strong>
+              <span>Happy Guests</span>
+            </div>
+            <div>
+              <strong>20+</strong>
+              <span>Signature Dishes</span>
+            </div>
+          </div>
+
+          <a href="#reservation" class="btn btn-outline">
+            Experience RoyalBite ↗
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">A FEAST FOR THE EYES</span>
+            <h2>Our Little <span>World.</span></h2>
+          </div>
+          <p>Beautiful plates, warm spaces and moments worth sharing.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=85"
+            alt="Restaurant interior" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85"
+            alt="Freshly prepared meal" loading="lazy">
+          <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=700&q=85"
+            alt="Fresh restaurant food" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation -->
+    <section class="section reservation-section" id="reservation">
+      <div class="container reservation-grid">
+
+        <div class="reservation-copy">
+          <span class="eyebrow">YOUR TABLE AWAITS</span>
+          <h2>Make It a Night <span>to Remember.</span></h2>
+          <p>
+            Planning a dinner or a special occasion?
+            Send us your reservation request.
+          </p>
+          <a href="#contact" class="text-link">Contact our team →</a>
+        </div>
+
+        <form class="reservation-form" id="booking-form">
+          <h3>Reserve Your Table</h3>
+
+          <label for="guest-name">Your Name</label>
+          <input id="guest-name" name="name" type="text" placeholder="Enter your name" required>
+
+          <label for="guest-phone">Phone Number</label>
+          <input id="guest-phone" name="phone" type="tel" placeholder="03XX XXXXXXX" required>
+
+          <div class="form-row">
+            <div>
+              <label for="booking-date">Date</label>
+              <input id="booking-date" name="date" type="date" required>
+            </div>
+            <div>
+              <label for="booking-guests">Guests</label>
+              <select id="booking-guests" name="guests" required>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6+">6+ People</option>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-gold form-submit">
+            Request Reservation ↗
+          </button>
+          <p class="form-message" id="form-message" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container footer-main">
+      <a href="#home" class="logo">
+        <span class="logo-icon">♛</span>
+        <span>RoyalBite<small>RESTAURANT & CAFE</small></span>
+      </a>
+
+      <p>Good food. Great mood. Unforgettable moments.</p>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="mailto:hello@example.com">Email Us</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> RoyalBite. Demo website.</span>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
